@@ -1,0 +1,16 @@
+pluginManagement {
+    repositories {
+        maven {
+            name = 'Fabric'
+            url = 'https://maven.fabricmc.net/'
+        }
+        maven {
+            name = 'Masa Maven'
+            url = 'https://masa.dy.fi/maven'
+        }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'gettaro' // Cambia esto al nombre de tu proyecto
