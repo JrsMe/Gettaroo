@@ -1,4 +1,5 @@
-# Gettaroo Fabric mod 1.16
+# Gettaroo Fabric mod 1.21.1
+# Mod By d4annn
 
 ## Setup
 
