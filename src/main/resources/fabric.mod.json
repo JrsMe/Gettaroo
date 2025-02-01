@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "gettaroo",
+  "version": "${version}",
+  "name": "Gettaroo Mod",
+  "description": "A mod for Minecraft 1.21.4",
+  "authors": [
+    "JrsMe"
+  ],
+  "contact": {
+    "homepage": "https://tusitio.com",
+    "sources": "https://github.com/turepositorio"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "getta.gettaroo.Gettaroo"
+    ],
+    "client": [
+      "getta.gettaroo.GettarooClient"
+    ]
+  },
+  "mixins": [
+    "gettaroo.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}

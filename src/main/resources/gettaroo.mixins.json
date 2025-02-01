@@ -1,0 +1,34 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "getta.gettaroo.mixins",
+  "compatibilityLevel": "JAVA_21",  // Actualizado a Java 21
+  "client": [
+    "ClientBrandRetrieverMixin",
+    "ClientPlayerEntityMixin",
+    "EnderPearlItemMixin",
+    "EntityMixin",
+    "SwimNavigationMixin",
+    "GameRendererMixin",
+    "HandledScreenMixin",
+    "InGameHudMixin",
+    "InGameOverlayRendererMixin",
+    "KeyboardInputMixin",
+    "MinecraftClientMixin",
+    "MiningToolItemMixin",
+    "PickaxeItemMixin",
+    "PlayerEntityMixin",
+    "SlotMixin",
+    "WorldRendererMixin",
+    "EntityRenderDispatcherMixin",
+    "ItemEntityRendererMixin",
+    "PigEntityRendererMixin",
+    "PigEntityRendererInterfaceMixin",
+    "HoglinEntityRendererInterface",
+    "HoglinEntityRendererMixin",
+    "ArmorFeatureRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
